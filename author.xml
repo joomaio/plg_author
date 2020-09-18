@@ -7,8 +7,11 @@
 	<license>joomaio license</license>
 	<authorEmail>product@joomaio.com</authorEmail>
 	<authorUrl>joomaio.com</authorUrl>
-	<version>0.1</version>
+	<version>0.2</version>
 	<description>PLG_AUTHOR_DESCRIPTION_TEXT</description>
+	<updateservers>
+		<server type="extension" name="plg_author" priority="1">http://www.update.joomaio.org/plg_author/plg_author_update.xml</server>
+	</updateservers>
 	<files>
 		<filename plugin="author">author.php</filename>
 	</files>
